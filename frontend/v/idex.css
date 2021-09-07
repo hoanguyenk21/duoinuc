@@ -1,0 +1,222 @@
+
+.logo1{
+    float: left;
+    width: 110px;
+height: 70px;
+margin-left: 174px;
+margin-top: 14px;
+}
+.logo{
+    color: #0198CF;
+    float: left;
+    margin-top: 26px;
+    margin-left: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.search{
+    float: left;
+    position: relative;
+    border-radius: 99px;
+    margin-left: 709px;
+    margin-top: 26px;
+}
+.form{
+    Width :229px;
+Height :45px;
+Top :28px;
+
+ border-radius :99px;
+}
+.searchicon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+input {
+  outline: none;
+}
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+  display: none; 
+}
+
+
+input[type=search] {
+  background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 10px right;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  width: 229px;
+  
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+input[type=search]:focus {
+ 
+  background-color: #fff;
+  border-color: #66CC75;
+  
+  -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+  color: #999;
+}
+input::-webkit-input-placeholder {
+  color: #999;
+}
+/* nav */
+
+  
+  .topnav {
+    overflow: hidden;
+   background-color: #0198CF;
+  
+  }
+  .nav{
+      margin-left: 70px;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px;
+   margin-left: 80px;
+   
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+ 
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+/* end nav */
+.the{
+    width: 500px;
+    height: 122px;
+   
+    
+}
+.text{
+    width: 500px;
+    height: 50px;
+    background-color: #EE2F72;
+}
+.text2{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(0, 0%, 100%, 0.705);
+}
+.box{
+    border-radius: 10px;
+    Width: 503px;
+    height: 248px;
+    background-color: #FFFFFF;
+    margin-left: 30px;
+}
+.card{
+    height: 554px;
+    background-color: #FFFFFF;
+}
+.a{
+position: relative;
+}
+.b{
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 20px;
+  top: 236px;
+  left: 20px;
+  right: 20px;
+  width: 463px;
+height: 257px;
+background-color: #FFFFFF;
+}
+.tt{
+  background-color: 
+  #F1F7FA;
+  padding-bottom: 100px;
+}
+.tieu{
+ 
+   font-size: 20px;
+   line-height: 23px;
+   color: #E11B51;
+}
+.h{
+  background-color: #0198CF !important; border-radius: 55px; border-color: #0198CF ; margin-top: 189px;
+margin-left: 884px;
+}
+.tieude1{
+  text-align: center; font-family: 'Roboto Condensed', sans-serif; padding-top: 71px; color: black;font-weight: bold;
+     font-size: 36px;
+     line-height: 42px;
+     text-transform: uppercase;
+}
+.dt{
+  box-shadow: 1px 1px 10px rgba(88, 86, 88, 0.377),  1px 1px 9px rgba(119, 115, 122, 0.349);
+  width: 370px;
+height: 205px;
+background-color: #FFFFFF;
+padding-left: 49px;
+padding-top: 35px;
+
+}
+.dt1{
+  margin-left: 30px;
+}
+.o1{
+  box-shadow: 1px 1px 10px rgba(88, 86, 88, 0.377),  1px 1px 9px rgba(119, 115, 122, 0.349);
+  width: 370px;
+height: 205px;
+background-color: #FFFFFF;
+padding-left: 96px;
+padding-top: 14px;
+}
+footer{
+  background-color: #0198CF;
+}
